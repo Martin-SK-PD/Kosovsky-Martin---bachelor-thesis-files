@@ -23,7 +23,7 @@ The sample 3D model files included in this directory are intended for use with t
 Follow the instructions below to load and use these files:
 
 1. **Open MeshLab**:
-   Ensure you have the latest version of MeshLab installed on your system. The `filter_metricCombVis` plugin should also be installed and loaded.
+   Ensure you have the latest version of MeshLab installed on your system. The MetricCombVis plugin should also be installed and loaded.
 
 2. **Load a Sample Mesh**:
    - Open MeshLab.
