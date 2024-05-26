@@ -5,7 +5,7 @@ This README file provides instructions on how to integrate and use the MetricCom
 
 Files Included:
 ---------------
-1. metricCombVis.dll (or metricCombVis.so for Linux, metricCombVis.dylib for macOS) - The compiled plugin binary.
+1. metricCombVis.dll  - The compiled plugin binary.
 
 
 Prerequisites:
