@@ -11,9 +11,11 @@ These files are provided in the `.ply` format and can be used to evaluate the pl
 
 Files Included:
 ---------------
-1. bunny-original.ply - Sample 3D model file of a Bunny.
-2. happy_budha-original.ply - Sample 3D model file of a Happy Buddha.
-3. statue-original.ply - Sample 3D model file of a Statue.
+1. bunny-changed.ply 
+2. bunny-original.ply 
+3. happy_budha-changed.ply 
+4. happy_budha-original.ply 
+5. tetrahedron.ply
 
 Using the Sample 3D Model Files:
 --------------------------------
@@ -36,6 +38,6 @@ Follow the instructions below to load and use these files:
 
 4. **Evaluate the Plugin**:
    - Observe the results of the plugin's processing on the sample mesh.
-   - Use the different sample files (`bunny-original.ply`, `happy_budha-original.ply`, `statue-original.ply`) to test the plugin's functionality and performance on various types of 3D models.
+   - Use the different sample files (`bunny-original.ply`, `happy_budha-original.ply`...) to test the plugin's functionality and performance on various types of 3D models.
 
 
