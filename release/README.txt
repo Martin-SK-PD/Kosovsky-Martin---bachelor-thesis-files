@@ -26,7 +26,7 @@ You can load the MetricCombVis plugin into MeshLab using one of the following me
 ### Method 2: Copying to the Plugins Directory
 1. Locate the MeshLab plugins directory. This is typically located in the installation directory of MeshLab:
    - Windows: `C:\Program Files\MeshLab\plugins`
-2. Copy the metricCombVis.dll plugin file  to the plugins directory.
+2. Copy the metricCombVis.dll plugin file to the plugins directory.
 3. Restart MeshLab.
 4. The plugin should now be available in the MeshLab interface, and you can start using it.
 
