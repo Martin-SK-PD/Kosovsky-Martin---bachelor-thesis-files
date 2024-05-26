@@ -39,7 +39,7 @@ Usage:
 
 Subdirectory: mesh_objects/
 ---------------------------
-This directory contains selected mesh files for testing the `filter_metricCombVis` plugin.
+This directory contains selected mesh files for testing the MetricCombVis plugin.
 
 Files:
 - bunny-changed.ply
