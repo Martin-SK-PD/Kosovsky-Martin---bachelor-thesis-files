@@ -1,7 +1,7 @@
 README.txt
 ==========
 
-This README file provides an overview of the directory structure and instructions on how to compile and use the `filter_metricCombVis` plugin for MeshLab.
+This README file provides an overview of the directory structure and instructions on how to compile and use the MetricCombVis plugin for MeshLab.
 
 Directory Structure:
 --------------------
@@ -10,7 +10,7 @@ The project directory contains the following subdirectories:
 1. release/ - Contains the compiled release version of the MetricCombVis plugin.
 2. debug/ - Contains the compiled debug version of the MetricCombVis plugin.
 3. mesh_objects/ - Contains selected mesh files for testing the plugin.
-4. filter_metricCombVis/ - Contains the source code, CMake file, and a detailed README on how to compile the plugin from source.
+4. filter_metricCombVis - source code/ - Contains the source code, CMake file, and a detailed README on how to compile the plugin from source.
 
 Subdirectory: release/
 ----------------------
