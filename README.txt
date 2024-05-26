@@ -7,14 +7,14 @@ Directory Structure:
 --------------------
 The project directory contains the following subdirectories:
 
-1. release/ - Contains the compiled release version of the `filter_metricCombVis` plugin.
-2. debug/ - Contains the compiled debug version of the `filter_metricCombVis` plugin.
+1. release/ - Contains the compiled release version of the MetricCombVis plugin.
+2. debug/ - Contains the compiled debug version of the MetricCombVis plugin.
 3. mesh_objects/ - Contains selected mesh files for testing the plugin.
 4. filter_metricCombVis/ - Contains the source code, CMake file, and a detailed README on how to compile the plugin from source.
 
 Subdirectory: release/
 ----------------------
-This directory contains the compiled release version of the `filter_metricCombVis` plugin.
+This directory contains the compiled release version of the MetricCombVis plugin.
 
 Files:
 - plugin.dll (or plugin.so for Linux, plugin.dylib for macOS) - The compiled release version of the plugin binary.
@@ -26,7 +26,7 @@ Usage:
 
 Subdirectory: debug/
 --------------------
-This directory contains the compiled debug version of the `filter_metricCombVis` plugin.
+This directory contains the compiled debug version of the MetricCombVis plugin.
 
 Files:
 - plugin_debug.dll (or plugin_debug.so for Linux, plugin_debug.dylib for macOS) - The compiled debug version of the plugin binary.
@@ -42,19 +42,22 @@ Subdirectory: mesh_objects/
 This directory contains selected mesh files for testing the `filter_metricCombVis` plugin.
 
 Files:
-- bunny-original.ply - Sample 3D model file (Bunny).
-- happy_budha-original.ply - Sample 3D model file (Happy Buddha).
-- statue-original.ply - Sample 3D model file (Statue).
+- bunny-changed.ply
+- bunny-original.ply 
+- happy_budha-changed.ply 
+- happy_budha-original.ply 
+- tetrahedron.ply
+
 
 Usage:
-- Use these sample files to test the functionality of the `filter_metricCombVis` plugin in MeshLab.
+- Use these sample files to test the functionality of the MetricCombVis plugin in MeshLab.
 
 
 
 
-Subdirectory: filter_metricCombVis/
+Subdirectory: filter_metricCombVis - source code/
 -----------------------------------
-This directory contains the source code, CMake configuration file, and detailed instructions on how to compile the `filter_metricCombVis` plugin from source.
+This directory contains the source code, CMake configuration file, and detailed instructions on how to compile the MetricCombVis plugin from source.
 
 Files:
 - plugin.cpp - Source code file containing the implementation of the plugin.
@@ -68,7 +71,7 @@ Files:
 
 Loading and Using the Plugin:
 -----------------------------
-You can load the `filter_metricCombVis` plugin into MeshLab using one of the following methods:
+You can load the MetricCombVis plugin into MeshLab using one of the following methods:
 
 ### Using the Plugin Info Dialog
 1. Open MeshLab.
@@ -88,9 +91,9 @@ You can load the `filter_metricCombVis` plugin into MeshLab using one of the fol
 
 
 
-Using the `filter_metricCombVis` Plugin:
+Using the MetricCombVis Plugin:
 ---------------------------------------
-The `filter_metricCombVis` plugin adds two new functionalities under the "Filters" -> "Quality Measurement" menu:
+The MetricCombVis plugin adds two new functionalities under the "Filters" -> "Quality Measurement" menu:
 
 1. **First Visualization**:
    - To use the first visualization feature:
