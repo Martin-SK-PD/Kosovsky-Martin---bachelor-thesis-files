@@ -17,7 +17,7 @@ Subdirectory: release/
 This directory contains the compiled release version of the MetricCombVis plugin.
 
 Files:
-- plugin.dll (or plugin.so for Linux, plugin.dylib for macOS) - The compiled release version of the plugin binary.
+- plugin.dll  - The compiled release version of the plugin binary.
 
 Usage:
 - To load this plugin into MeshLab, you can use the Plugin Info dialog or copy the plugin file to the MeshLab plugins directory.
@@ -29,7 +29,7 @@ Subdirectory: debug/
 This directory contains the compiled debug version of the MetricCombVis plugin.
 
 Files:
-- plugin_debug.dll (or plugin_debug.so for Linux, plugin_debug.dylib for macOS) - The compiled debug version of the plugin binary.
+- plugin_debug.dll  - The compiled debug version of the plugin binary.
 
 Usage:
 - This plugin is intended for use with debug versions of MeshLab when MeshLab is built from source.
