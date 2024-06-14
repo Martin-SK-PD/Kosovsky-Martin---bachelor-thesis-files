@@ -953,17 +953,26 @@ std::map<std::string, QVariant> Plugin::applyFilter(
 			for (CMeshO::FaceIterator fi = mesh.face.begin(); fi != mesh.face.end(); ++fi) {
 				if (!(*fi).IsD()) {
 
-					switch (colorMixingMode) {
-					case 1: {
-						(*fi).C() =
-						GetColorForValue(data_struct.map.at(fi), data_struct.min, data_struct.sum/data_struct.counter, data_struct.max);
-					} break;
-					case 2: {
-						(*fi).C() = GetColorForValue(
-							data_struct.map.at(fi),	data_struct.min,
-							(data_struct.min+data_struct.max)/2,data_struct.max);
-					} break;
-					default: break;
+					try {
+						switch (colorMixingMode) {
+						case 1: {
+							(*fi).C() = GetColorForValue(
+								data_struct.map.at(fi),
+								data_struct.min,
+								data_struct.sum / data_struct.counter,
+								data_struct.max);
+						} break;
+						case 2: {
+							(*fi).C() = GetColorForValue(
+								data_struct.map.at(fi),
+								data_struct.min,
+								(data_struct.min + data_struct.max) / 2,
+								data_struct.max);
+						} break;
+						default: break;
+						}
+					}
+					catch (const std::exception& e) {
 					}
 
 					
